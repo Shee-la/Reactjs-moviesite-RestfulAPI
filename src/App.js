@@ -14,7 +14,7 @@ const API_URL = 'http://www.omdbapi.com?apikey=405cb58a';
 const App = () => {
 //creating a state
 const [movies, setMovies] = useState([]);
-const [searchTerm, setSearchTerm] = useState('');
+const [searchTerm, setSearchTerm] = useState("");
 
     //fetch data from api above
        
